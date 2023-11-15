@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%
+  /* Container styles */
+}
+
+.trail::after{
+  position: absolute;
+  content: '🍃';
+  font-size: 2em;
+  z-index: 1000;
+  transition: all 0.2s ease;
+  pointer-events: none; /* Prevents the trail from interfering with mouse events */
+}

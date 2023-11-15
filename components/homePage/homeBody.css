@@ -1,0 +1,27 @@
+.get-started h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.get-started p {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.get-started {
+  padding: 4rem;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin: 4rem 0;
+}
+
+.get-started-button {
+  background-color: darkseagreen;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 15px;
+}
