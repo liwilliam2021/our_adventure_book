@@ -1,0 +1,8 @@
+PRIORITIZED BY IMPORTANCE
+
+Finish About Us and FAQ copy
+Check if logout is working as intentially
+Use context providers for firebase
+Add vertical divs on top menu
+Componentize login/logout + set cookie if already logged in
+Only display logout in footer if logged in 

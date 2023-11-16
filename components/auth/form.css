@@ -1,0 +1,36 @@
+.vertical-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.vertical-form div {
+  margin-bottom: 10px; /* Adjust the spacing between fields */
+}
+
+.vertical-form label {
+  font-weight: bold;
+}
+
+.vertical-form input {
+  padding: 5px;
+  margin-top: 5x;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.vertical-form button {
+  background-color: #007bff;
+  color: white;
+  margin-top: 5x;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.vertical-form button:hover {
+  background-color: #0056b3;
+}

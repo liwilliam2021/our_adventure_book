@@ -19,11 +19,10 @@
   align-items: center;
 }
 
-.footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background */
-  color: white;
+.login-button {
+  background-color: darkseagreen;
+  padding: 15px 32px;
+  border-radius: 8px;
 }
 
 .vertical-divider {

@@ -1,11 +1,12 @@
 'use client'
 
 import {React, useState} from 'react';
+import { useRouter } from 'next/navigation';
 import './homeBody.css'
 
 const HomeBody = () => {
     const [isHovered, setIsHovered] = useState(false);
-
+    const router = useRouter();
 
     return (
       <section className="get-started" style={{ height: '60vh', backgroundColor: isHovered ? 'rgba(76, 175, 80, 0.5)' : 'transparent'}}>
@@ -15,6 +16,7 @@ const HomeBody = () => {
             <button 
                 onMouseEnter={() => setIsHovered(true)} 
                 onMouseLeave={() => setIsHovered(false)}
+                onClick={() => {router.push('/signup');}}
                 className='get-started-button'
             >
                 Get Started!
